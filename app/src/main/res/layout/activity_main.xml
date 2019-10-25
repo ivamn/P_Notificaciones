@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICACIÓN NORMAL"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/bigtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICACIÓN BIGTEXT"
+        android:layout_margin="8dp"
+        android:layout_below="@id/normal"/>
+
+    <Button
+        android:id="@+id/inbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICACIÓN INBOX"
+        android:layout_margin="8dp"
+        android:layout_below="@id/bigtext"/>
+
+    <Button
+        android:id="@+id/bigpicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICACIÓN BIGPICTURE"
+        android:layout_margin="8dp"
+        android:layout_below="@id/inbox"/>
+
+    <Button
+        android:id="@+id/botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICACIÓN BOTONES"
+        android:layout_margin="8dp"
+        android:layout_below="@id/bigpicture"/>
+
+</RelativeLayout>
